@@ -1,0 +1,1 @@
+# Jekyll SSG for personal portfolio - practice site
