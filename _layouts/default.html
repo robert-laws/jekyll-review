@@ -2,14 +2,21 @@
 <html lang="en">
   {% include head.html %}
 <body>
+  <!-- header goes here -->
   {% include header.html %}
 
+  <!-- content goes here -->
   <div class="page-content">
     <div class="wrapper">
       {{ content }}
     </div>
   </div>
 
-  {% include footer.html %}
+  <!-- footer goes here -->
+  {% if page.id %}
+    {% include post-footer.html %}
+  {% else %}
+    {% include footer.html %}
+  {% endif %}
 </body>
 </html>
