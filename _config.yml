@@ -1,0 +1,12 @@
+# Site settings
+title: Practice Jekyll Site
+email: bobcobb@net.com
+description: >
+  Practice website using the Jekyll SSG engine
+  Will form the basis for a portfolio website
+baseurl: ""
+url: "http://mysite.com"
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
+
+# Build settings
+markdown: kramdown
