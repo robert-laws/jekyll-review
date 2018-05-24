@@ -1,8 +1,9 @@
 ---
+#empty front matter to force jekyll to process file
 ---
 
 @import "base";
 
-h2 {
-  color: green;
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
