@@ -9,6 +9,10 @@ baseurl: ""
 url: "http://mysite.com"
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
 
+# Pagination
+paginate: 3
+paginate_path: '/blog/page:num/'
+
 # Build settings
 markdown: kramdown
 sass:
@@ -17,3 +21,5 @@ sass:
 
 # Posts
 future: true
+
+plugins: [jekyll-paginate]

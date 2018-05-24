@@ -5,11 +5,23 @@ title: Home Page
 <div class="container">
   <h2>Blog Posts</h2>
   <ul>
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <li class="post-content">
         <a href="{{site.baseurl}}{{post.url}}" title="{{site.baseurl}}{{post.url}}">{{post.title}}</a> - Date: <time itemprop="dateCreated" datetime="{{post.date}}">{{post.date | date: "%B %-d, %Y"}}</time>
         <p>{{post.excerpt | strip_html}} <a href="{{site.baseurl}}{{post.url}}">Read more</a></p>
       </li>
     {% endfor %}
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+          <p class="prevLink"><a href="{{site.baseurl}}/" class="previous">newer enteries</a></p>
+        {% else %}
+          <p class="prevLink"><a href="{{site.baseurl}}/blog/page{{paginator.previous_page}}" class="previous">newer enteries</a></p>
+        {% endif %}
+      {% endif %}
+      {% if paginator.next_page %}
+        <p class="nextLink"><a href="{{site.baseurl}}/blog/page{{paginator.next_page}}" class="next">older enteries</a></p>
+      {% endif %}
+    </div>
   </ul>
 </div>
