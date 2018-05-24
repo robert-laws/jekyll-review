@@ -6,8 +6,9 @@ title: Home Page
   <h2>Blog Posts</h2>
   <ul>
     {% for post in site.posts %}
-      <li>
-        <a href="{{site.baseurl}}{{post.url}}" title="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+      <li class="post-content">
+        <a href="{{site.baseurl}}{{post.url}}" title="{{site.baseurl}}{{post.url}}">{{post.title}}</a> - Date: <time itemprop="dateCreated" datetime="{{post.date}}">{{post.date | date: "%B %-d, %Y"}}</time>
+        <p>{{post.excerpt | strip_html}} <a href="{{site.baseurl}}{{post.url}}">Read more</a></p>
       </li>
     {% endfor %}
   </ul>

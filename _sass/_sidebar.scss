@@ -1,5 +1,5 @@
 .sidebar {
-  width: 120px;
+  width: 180px;
 
   h4 {
     padding-bottom: 5px;
@@ -9,5 +9,9 @@
 
   ul {
     list-style: none;
+
+    li {
+      padding: 5px 0;
+    }
   }
 }
