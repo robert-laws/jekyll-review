@@ -18,12 +18,12 @@ layout: default
     <p>Read more:</p>
     {% if page.previous.url %}
       <p class="prevLink">
-        <a href="{{page.previous.url}}" class="previous">{{page.previous.title}}</a>
+        <a href="{{site.baseurl}}{{page.previous.url}}" class="previous">{{page.previous.title}}</a>
       </p>
     {% endif %}
     {% if page.next.url %}
       <p class="nextLink">
-        <a href="{{page.next.url}}" class="next">{{page.next.title}}</a>
+        <a href="{{site.baseurl}}{{page.next.url}}" class="next">{{page.next.title}}</a>
       </p>
     {% endif %}
   </section>
