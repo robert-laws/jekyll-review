@@ -3,6 +3,7 @@ layout: post
 title: "Using Liquid Syntax"
 date: 2018-05-24 16:25:00
 categories: blog
+tag: [blog,jekyll]
 excerpt_separator: <!-- more -->
 ---
 ## Some Good Information

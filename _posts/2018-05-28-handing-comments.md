@@ -2,7 +2,8 @@
 layout: post
 title: "Handling Comments"
 date: 2018-05-28 19:08:00
-categories: blog
+categories: [blog, jekyll]
+tags: [jekyll,blogging,yaml,liquid,design]
 excerpt_separator: <!-- more -->
 ---
 Laborum minim aliquip amet velit esse anim aliqua. Et Lorem sunt duis ea nulla id officia ipsum adipisicing ea culpa. Qui pariatur ut consectetur minim ut laborum cillum. Amet nisi culpa ullamco fugiat ut incididunt deserunt ad aliqua dolore cupidatat ex esse. Nisi ea veniam nostrud do consequat eiusmod. Nisi irure sunt veniam ex amet culpa commodo nulla Lorem magna cupidatat. Proident ex et et labore.<!-- more -->

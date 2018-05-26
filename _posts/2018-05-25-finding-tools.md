@@ -3,6 +3,7 @@ layout: post
 title: "Finding Tools for Jekyll"
 date: 2018-05-25 12:45:00
 categories: blog
+tags: [jekyll,web design,blogging,yaml,liquid,design]
 excerpt_separator: <!-- more -->
 ---
 Ullamco dolor Lorem incididunt minim veniam in anim pariatur ad. Ex officia dolore duis quis mollit nostrud. Sint est nulla esse duis voluptate magna dolore tempor ea. Adipisicing laboris ex deserunt adipisicing commodo occaecat. Tempor sit occaecat ut excepteur amet sit eu nulla. Veniam tempor ipsum ut aute ipsum et pariatur veniam. Consequat veniam eiusmod qui labore proident cillum mollit commodo velit ullamco magna nulla.<!-- more -->
